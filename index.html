@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WRLX.RULES - Premium digital services including Netflix, Spotify, YouTube Premium subscriptions, social media account recovery, and custom digital solutions.">
+    <meta name="keywords" content="Netflix subscription, Spotify premium, YouTube premium, Instagram unban, account recovery, digital services, premium accounts">
+    <meta name="author" content="WRLX.RULES">
+    <meta property="og:title" content="WRLX.RULES - Premium Digital Services">
+    <meta property="og:description" content="Get premium subscriptions, social media services, and custom digital solutions at unbeatable prices.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wrlx.rules">
+    <title>WRLX.RULES - Premium Digital Services | Netflix, Spotify, Social Media Management</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>WRLX.RULES</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#pricing" class="nav-link">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#faq" class="nav-link">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Premium Digital Services</h1>
+                <p class="hero-subtitle">Get access to Netflix, Spotify, and exclusive social media services at low prices</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Explore Services</a>
+                    <a href="#contact" class="btn btn-secondary">Get Started</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card">
+                    <img src="Netflix.png" width="50" height="50cm">
+                </div>
+                <div class="floating-card">
+                    <i class="fab fa-spotify"></i>
+                </div>
+                <div class="floating-card">
+                    <i class="fab fa-youtube"></i>
+                </div>
+                <div class="floating-card">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Premium digital solutions tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-play-circle"></i>
+                    </div>
+                    <h3>Netflix Subscription Services</h3>
+                    <div class="tab-buttons">
+                    <button class="active-tab" onclick="showTab('plans', this)">Plans</button>
+                    <button onclick="showTab('features', this)">Features</button>
+                    <button onclick="showTab('rules', this)">Rules</button>
+                </div>
+
+                        <div class="tab-content" id="plans"> 
+                        <ul class="service-features">
+                            <li>1 Screen / Month: $3</li>
+                            <li>1 Screen / Year: $30</li>
+                            <li>Family Pack (4 Screens) / Month: $10</li>
+                            <li>Family Pack (4 Screens) / Year: $100</li>
+                        </ul>
+                        </div>
+                    <div class="tab-content" id="features" style="display:none">
+                        <ul class="service-features">
+                            <li>✓ Netflix Premium HD/4K</li>
+                            <li>✓ Fast Activation within Minutes</li>
+                            <li>✓ Valid Worldwide Access.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="rules" style="display:none">
+                        <ul class="service-features">
+                            <li>✘ No Password Changes Allowed</li>
+                            <li>✘ No Sharing of Screens/Accounts</li>
+                            <li>✘ Violation of Rules = Immediate Termination</li>
+                            <li>✘ No Refunds After Activation</li>
+                            <li>✓ Use VPN if Regional Issues Occur</li>
+                            <li>✓ 24/7 Support for Valid Users</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h3>Social Media Services</h3>
+                     <div class="tab-buttons">
+                        <button class="active-tab" onclick="showSMTab('services', this)">Services</button>
+                        <button onclick="showSMTab('pricing', this)">Pricing</button>
+                        <button onclick="showSMTab('sm-rules', this)">Rules</button>
+                    </div>
+                    <div class="tab-content" id="services">
+                        <ul class="service-features">
+                            <li>✓ Instagram Account Banning Service</li>
+                            <li>✓ Instagram Account Unbanning Service</li>
+                            <li>✓ Instagram Account Management Service</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="pricing" style="display:none">
+                        <ul class="service-features">
+                            <li>✓ Unban Instagram Account– $10 to $50</li>
+                            <li>✓ Banning Instagram Account– $20 to $150</li>
+                            <li>✓ Monthly Social Media Management – $30</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="sm-rules" style="display:none">
+                        <ul class="service-features">
+                            <li>✘ No Refunds After Start</li>
+                            <li>✘ Don’t Change Login Info During Process</li>
+                            <li>✓ Fast Response within 24 Hours</li>
+                            <li>✓ Use Real Emails/Accounts</li>
+                            <li>✓ Support via Instagram/Telegram</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fab fa-spotify"></i>
+                    </div>
+                    <h3>Spotify Premium Account</h3>
+                    <div class="tab-buttons">
+                        <button class="active-tab" onclick="showSpotifyTab('spotify-plans', this)">Plans</button>
+                        <button onclick="showSpotifyTab('spotify-features', this)">Features</button>
+                        <button onclick="showSpotifyTab('spotify-rules', this)">Rules</button>
+                    </div>
+
+                    <div class="tab-content" id="spotify-plans">
+                        <ul class="service-features">
+                            <li>✓ Individual / Month: $3</li>
+                            <li>✓ Individual / Year: $25</li>
+                            <li>✓ Duo Plan (2 Users) / Month: $5</li>
+                            <li>✓ Family Plan (6 Users) / Month: $7</li>
+                            <li>✓ Family Plan / Year: $60</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content" id="spotify-features" style="display:none">
+                        <ul class="service-features">
+                            <li>✓ Spotify Premium (Ad-Free)</li>
+                            <li>✓ Unlimited Skips & Downloads</li>
+                            <li>✓ High Quality Streaming (320 kbps)</li>
+                            <li>✓ Accessible on All Devices</li>
+                            <li>✓ Fast Delivery</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content" id="spotify-rules" style="display:none">
+                        <ul class="service-features">
+                            <li>✘ No Password Change Allowed</li>
+                            <li>✘ No Sharing Outside Your Plan</li>
+                            <li>✘ Violation Ends Subscription</li>
+                            <li>✘ No Refunds After Activation</li>
+                            <li>✓ Use VPN if Region Locked</li>
+                            <li>✓ Support via WhatsApp/Telegram/Instagram</li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+           
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Complete Packages</h2>
+                <p>Everything you need in one subscription – save more, do more.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card" data-aos="fade-up">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">5.99</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Netflix Premium Single</li>
+                        <li>✓ Spotify Premium Single</li>
+                        <li>✗ No Refunds.</li>
+                        <li>✗ Priority Support</li>
+                        <li>✗ Custom Requests</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Get Started</a>
+                </div>
+                
+                <div class="pricing-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">24.99</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Netflix Premium (Family Pack)</li>
+                        <li>✓ Spotify Premium (Family Pack)</li>
+                        <li>✓ Priority Support</li>
+                        <li>✓ 3-Day Guarantee</li>
+                        <li>✓ Custom Requests</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                </div>
+                
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">49.99</span>
+                            <span class="period">/Month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Netflix Premium (Family Pack)</li>
+                        <li>✓ Spotify Premium (Family Pack)</li>
+                        <li>✓ Social Media Management</li>
+                        <li>✓ 24/7 Premium Support</li>
+                        <li>✓ 10-Day Guarantee</li>
+                        <li>✓ Unlimited Custom Requests</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>Trusted by thousands of satisfied customers</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Amazing service! Got my Instagram account unbanned within 24 hours. Highly recommend WRLX.RULES for any social media issues."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Paradox.claims</h4>
+                            <span>Content Creator</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Best prices for premium subscriptions! I'm saving over $100/month with their bundle packages. Customer service is top-notch."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Mike Chen</h4>
+                            <span>Digital Marketer</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Professional and reliable. They handled my custom request perfectly and delivered exactly what I needed. Will definitely use again!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Abdullah</h4>
+                            <span>Business Owner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Get answers to common questions</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item" data-aos="fade-up">
+                    <div class="faq-question">
+                        <h3>How do subscription services work?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We provide legitimate premium subscriptions at discounted rates through our bulk purchasing and sharing programs. All accounts are secure and come with our uptime guarantee.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="faq-question">
+                        <h3>Can you really unban Instagram accounts?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we have a high success rate for Instagram account recovery and unbanning services. Our team uses proven methods and has extensive experience with social media platform policies.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="faq-question">
+                        <h3>Can you really ban Instagram accounts?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, Our team provides account banning services for specific purposes, such as reporting spam, impersonation, harassment, or violating Instagram’s community guidelines.</p>
+                        <p>This service is sensitive and comes with no guarantee of success in all cases, but our success rate is extremely high when the account violates Instagram’s terms.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="faq-question">
+                        <h3>What payment methods do you accept?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We accept cryptocurrency. All transactions are secure and encrypted.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="faq-question">
+                        <h3>Do you offer refunds?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer a satisfaction guarantee with refund periods ranging from 30-90 days depending on your plan. If you're not satisfied, we'll make it right or provide a full refund.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="faq-question">
+                        <h3>How fast is your support response?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our average response time is under 2 hours for all inquiries. Premium and Enterprise customers get priority support with even faster response times.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Ready to get started? Contact us today</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email Us</h3>
+                            <p>arqamm7505@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Live Chat</h3>
+                            <p>Available 24/7 for instant support</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Response Time</h3>
+                            <p>Under 2 hours average</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" data-aos="fade-left" action="https://formsubmit.co/arqamm7505@gmail.com" method="POST" >
+                      <input type="hidden" name="_captcha" value="false">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="">Select a Service</option>
+                            <option value="subscriptions">Subscription Services</option>
+                            <option value="social-media">Social Media Services</option>
+                            <option value="account-sharing">Premium Account Sharing</option>
+                            <option value="custom">Custom Request</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Tell us about your needs" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>WRLX.RULES</h3>
+                    <p>Premium digital services at unbeatable prices. Your trusted partner for subscriptions, social media solutions, and custom digital requests.</p>
+                    <div class="social-links">
+                        <a href="https://x.com/arqammexe?t=euuIeqJ1CPOaR8scIcblnA&s=09"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/arqamspams/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/muhammad-arqam-09792632a/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/arqammexe"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Netflix Premium</a></li>
+                        <li><a href="#services">Spotify Premium</a></li>
+                        <li><a href="#services">Instagram Recovery</a></li>
+                        <li><a href="#services">Custom Requests</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> arqamm7505@gmail.com</li>
+                        <li><i class="fas fa-clock"></i> 24/7 Support</li>
+                        <li><i class="fas fa-shield-alt"></i> Secure & Trusted</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 WRLX.RULES. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
